@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    anycable (1.4.3)
+      anycable-core (= 1.4.3)
+      google-protobuf (~> 3.23)
+      grpc (~> 1.53)
+    anycable-core (1.4.3)
+      anyway_config (~> 2.2)
+      google-protobuf (>= 3.13)
+    anyway_config (2.6.2)
+      ruby-next-core (~> 1.0)
+    google-protobuf (3.25.2-x86_64-linux)
+    googleapis-common-protos-types (1.11.0)
+      google-protobuf (~> 3.18)
+    grpc (1.60.0-x86_64-linux)
+      google-protobuf (~> 3.25)
+      googleapis-common-protos-types (~> 1.0)
+    ruby-next-core (1.0.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  anycable
+
+BUNDLED WITH
+   2.4.10
