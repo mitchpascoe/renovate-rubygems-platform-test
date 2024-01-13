@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'anycable'
+gem 'anycable', '1.4.2'

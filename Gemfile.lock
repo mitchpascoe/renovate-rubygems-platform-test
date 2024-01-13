@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    anycable (1.4.3)
-      anycable-core (= 1.4.3)
+    anycable (1.4.2)
+      anycable-core (= 1.4.2)
       google-protobuf (~> 3.23)
       grpc (~> 1.53)
-    anycable-core (1.4.3)
+    anycable-core (1.4.2)
       anyway_config (~> 2.2)
       google-protobuf (>= 3.13)
     anyway_config (2.6.2)
@@ -22,7 +22,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  anycable
+  anycable (= 1.4.2)
 
 BUNDLED WITH
    2.4.10
