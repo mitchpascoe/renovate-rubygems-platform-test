@@ -6,6 +6,11 @@
     {
       "matchManagers": "bundler",
       "rangeStrategy": "update-lockfile"
-    }
+    },
+    {
+      "matchPackageNames": ["nokogiri", "grpc", "google-protobuf"],
+      "matchDatasources": ["rubygems"],
+      "versioning": "regex:(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?"
+    },
   ]
 }
