@@ -16,13 +16,17 @@ GEM
     grpc (1.60.0-x86_64-linux)
       google-protobuf (~> 3.25)
       googleapis-common-protos-types (~> 1.0)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.7.3)
     ruby-next-core (1.0.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  anycable (= 1.4.2)
+  anycable
+  nokogiri
 
 BUNDLED WITH
    2.4.10
