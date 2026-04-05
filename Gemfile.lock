@@ -1,10 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    anycable (1.6.2)
-      anycable-core (= 1.6.2)
+    anycable (1.6.4)
+      anycable-core (= 1.6.4)
       grpc (~> 1.6)
-    anycable-core (1.6.2)
+    anycable-core (1.6.4)
       anyway_config (~> 2.2)
       base64 (>= 0.2)
       google-protobuf (~> 4)
@@ -13,10 +13,7 @@ GEM
       ruby-next-core (~> 1.0)
     base64 (0.3.0)
     bigdecimal (1.4.4)
-    google-protobuf (4.33.2)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.33.2-x86_64-linux-gnu)
+    google-protobuf (4.33.6)
       bigdecimal
       rake (>= 13)
     googleapis-common-protos-types (1.22.0)
